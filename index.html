@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      Meme text 1: <input type="text" id="user_text1" maxlength="70" oninput="update_text()"> <p>
+      Meme text 2: <input type="text" id="user_text2" maxlength="70" oninput="update_text()"> <p>
+      Select a Picture: <input type="file" id="user_picture" onchange="update_image()"> <p>  
+    </form>
+    <div id="meme_text1">Example Text Here</div>
+    <div id="meme_text2">Example Text Here</div>
+    <div id="meme_picture"><img src="" height="500" width="600"></div>
+  <script src="script.js"></script>
+  </body>
+</html>
